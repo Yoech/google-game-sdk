@@ -40,11 +40,13 @@ import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
 import android.widget.FrameLayout;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import dalvik.system.BaseDexClassLoader;
 import java.io.File;
 
 public class GameActivity
-    extends Activity
+    extends AppCompatActivity
     implements SurfaceHolder.Callback2 {
   private static final String LOG_TAG = "GameActivity";
 

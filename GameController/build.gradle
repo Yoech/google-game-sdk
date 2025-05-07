@@ -21,11 +21,11 @@ plugins {
 buildDir="../../out_paddleboat"
 
 android {
+    compileSdkVersion 35
 
     defaultConfig {
-        minSdkVersion 16
-        compileSdkVersion 31
-        targetSdkVersion 31
+        minSdkVersion 28
+        targetSdkVersion 35
         versionCode 1
         versionName "1.1"
 
